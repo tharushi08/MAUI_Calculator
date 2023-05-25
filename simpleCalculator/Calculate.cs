@@ -18,13 +18,13 @@ namespace simpleCalculator
                     result = vall / va12; 
                     break;
                 case "-":
-                    result = vall / va12;
+                    result = vall - va12;
                     break;
                 case "+":
-                    result = vall / va12;
+                    result = vall + va12;
                     break;
                 case "*":
-                    result = vall / va12;
+                    result = vall * va12;
                     break;
 
             }

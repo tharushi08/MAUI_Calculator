@@ -44,9 +44,10 @@ public partial class MainPage : ContentPage
 
 		this.result.Text = btnPressed;
 		double number;
+
 		if(double.TryParse(this.result.Text,out number))
 		{
-			this.result.Text = number.ToString("NO");
+			this.result.Text = number.ToString();
 			if (currentState ==1)
 			{
 				firstNum = number;
